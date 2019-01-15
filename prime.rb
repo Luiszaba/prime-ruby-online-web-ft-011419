@@ -1,6 +1,7 @@
 def prime?(num)
-(2..num -1).none? {|n| num%n ==0}
+if (2..num -1).none? {|n| num%n ==0}
 end
+false
 end
 
   
